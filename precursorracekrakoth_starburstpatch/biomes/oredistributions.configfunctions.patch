@@ -1,0 +1,22 @@
+[
+        {
+		"op" : "add",
+		"path" : "/atprk_chthoniansurface/0/1/-",
+		"value" : [ "pf_chronium", 0.00 ]
+	},
+        {
+		"op" : "add",
+		"path" : "/atprk_chthoniandepth1/0/1/-",
+		"value" :  [ "pf_chronium", 1.0 ]
+	},
+        {
+		"op" : "add",
+		"path" : "/atprk_chthoniandepth2/0/1/-",
+		"value" : [ "pf_chronium", 1.5 ]
+	},
+        {
+		"op" : "add",
+		"path" : "/atprk_chthoniandepth3/0/1/-",
+		"value" : [ "pf_chronium", 2.0 ]
+	}
+]

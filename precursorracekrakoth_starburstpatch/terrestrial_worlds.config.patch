@@ -1,0 +1,91 @@
+[
+  [
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_coldashworld",
+    "value" : {
+      "caveLiquid" : [ "lava" ],
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgCaveSelector" : [ "empty" ],
+      "bgOreSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "atprk_coldashworld" ]]
+      ],
+      "subRegion" : ["atprk_amber", "atprk_forgottenmountains", "atprk_glaciovolcanic"]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_lushashworld",
+    "value" : {
+      "caveLiquid" : [ "lava" ],
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgCaveSelector" : [ "empty" ],
+      "bgOreSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "atprk_lushashworld" ]]
+      ],
+      "subRegion" : ["atprk_amber", "atprk_forgottenmountains", "spring"]
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/planetTypes/atprk_ashworld/layers/surface/primaryRegion/-",
+    "value" : "atprk_coldashworld"
+  },
+{
+    "op" : "add",
+    "path" : "/planetTypes/atprk_ashworld/layers/surface/primaryRegion/-",
+    "value" : "atprk_lushashworld"
+  },
+
+{
+    "op" : "add",
+    "path" : "/regionTypes/pf_harshdesert/subRegion/-",
+    "value" : "atprk_shipgraveyard"
+  },
+{
+    "op" : "add",
+    "path" : "/regionTypes/pf_radstormalien/subRegion/-",
+    "value" : "atprk_radiotrophic"
+  },
+{
+    "op" : "add",
+    "path" : "/regionTypes/pf_primordialjungle/subRegion/-",
+    "value" : "atprk_amber"
+  },
+{
+    "op" : "add",
+    "path" : "/regionTypes/pf_primordialjungle/subRegion/-",
+    "value" : "atprk_hungergrove"
+  },
+{
+    "op" : "add",
+    "path" : "/regionTypes/pf_volcanicjungle/subRegion/-",
+    "value" : "atprk_hungergrove"
+  },
+{
+    "op" : "add",
+    "path" : "/regionTypes/pf_stormy/subRegion/-",
+    "value" : "atprk_forgottenmountains"
+  },
+{
+    "op" : "add",
+    "path" : "/regionTypes/pf_plutonicmidnight/subRegion/-",
+    "value" : "atprk_ancientnecropolis"
+  },
+{
+    "op" : "add",
+    "path" : "/regionTypes/pf_warscorchedcity/subRegion/-",
+    "value" : "atprk_polluted"
+  },
+{
+    "op" : "add",
+    "path" : "/regionTypes/pf_warscorchedcity/subRegion/-",
+    "value" : "atprk_shipgraveyard"
+  }
+  ]
+]
