@@ -1,0 +1,93 @@
+{
+  // ==============================================================================================
+  //                            REMNANTS X K'RAKOTHS - UNIQUE TREASUREPOOLS
+  // ==============================================================================================
+
+  // ============================================
+  //             SHIP ENCOUNTER LOOT
+  // ============================================
+
+  "atprk_RouterLoot" : [
+    [1, {
+      "fill" : [
+        {"item" : "atprk_routerscrap" }
+      ],
+      "poolRounds" : [
+        [0.90, 1],
+        [0.10, 2],
+        [0.05, 3]
+      ],
+      "pool" : [
+        {"weight" : 0.35, "item" : [ "ironbar", 3 ]},
+        {"weight" : 0.25, "item" : "siliconboard" },
+        {"weight" : 0.30, "item" : [ "wire", 2 ]},
+        {"weight" : 0.05, "item" : "atprk_routerscrap" }
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "atprk_ConsoleLoot" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.35, "item" : [ "siliconboard", 2 ]},
+        {"weight" : 0.25, "item" : [ "stickofram", 2 ]},
+        {"weight" : 0.05, "item" : "atprk_betastarmap" },
+        {"weight" : 0.15, "item" : "atprk_1stastraeus2-codex" }
+      ],
+      "poolRounds" : [
+        [0.90, 1],
+        [0.05, 2],
+        [0.01, 3]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "atprk_AstraeusCodexTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "commonSpaceItem"},
+        {"pool" : "chestMoney"},
+        {"item" : "atprk_1stastraeus1-codex"}
+      ],
+      "poolRounds" : [
+        [0.4, 1],
+        [0.3, 2],
+        [0.3, 3]
+      ],
+      "pool" : [
+        {"weight" : 0.35, "item" : "atprk_astraeuslasergun"},
+        {"weight" : 0.05, "item" : "atprk_routerscrap"},
+        {"weight" : 0.01, "item" : "atprk_astraeus1uniformchest"},
+        {"weight" : 0.01, "item" : "atprk_astraeus1uniformpants"}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_AstraeusShipTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "commonSpaceItem"},
+        {"pool" : "chestMoney"}
+      ],
+      "poolRounds" : [
+        [0.4, 1],
+        [0.3, 2],
+        [0.3, 3]
+      ],
+      "pool" : [
+        {"weight" : 0.35, "item" : "atprk_astraeuslasergun"},
+        {"weight" : 0.05, "item" : "atprk_routerscrap"},
+        {"weight" : 0.01, "item" : "atprk_astraeus1uniformchest"},
+        {"weight" : 0.01, "item" : "atprk_astraeus1uniformpants"}
+        {"weight" : 0.001, "item" : "atprk_astraeus1spacehead"},
+        {"weight" : 0.001, "item" : "atprk_astraeus1spacechest"},
+        {"weight" : 0.001, "item" : "atprk_astraeus1spacepants"},
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+}
+
