@@ -1,0 +1,117 @@
+{
+  "type" : "atprk_scrapmerchant",
+  "baseType" : "base",
+  
+  "persistent" : true,
+  "damageTeamType" : "friendly",
+
+  "dropPools" : [ "basicTreasure" ],
+
+  "scripts" : [
+    "/npcs/bmain.lua"
+  ],
+  "initialScriptDelta" : 5,
+  "scriptConfig" : {
+    "behavior" : "merchant",
+
+    "behaviorConfig" : {
+      "noticePlayersRadius" : 20,
+
+      "hostileDamageTeam" : { "type" : "enemy", "team" : 1 }
+    },
+
+    "questGenerator" : {
+      "pools" : ["common", "merchant"],
+      "enableParticipation" : true,
+
+      "timeLimit" : 30,
+      "chance" : 0.02,
+      "nearbyQuestLimit" : 2,
+      "nearbyQuestRange" : 50
+    },
+
+    "reactions" : {
+      "spontaneous" : [
+        [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [1.0, "sit", { "timeRange" : [0.6,0.2]}],
+        [1.0, "wander", { "timeRange" : [0.2, 0.6] }]
+      ]
+    },
+
+    "merchant" : {
+      "waitTime" : 40,
+      "storeRadius" : 16,
+      "poolsFile" : "/npcs/merchantpools.config",
+      "categories" : {
+        "default" : [ "atprk_scrapmerchant" ],
+        "apex" : [ "atprk_scrapmerchant" ],
+        "avian" : [ "atprk_scrapmerchant" ],
+        "floran" : [ "atprk_scrapmerchant" ],
+        "glitch" : [ "atprk_scrapmerchant" ],
+        "human" : [ "atprk_scrapmerchant" ],
+        "hylotl" : [ "atprk_scrapmerchant" ],
+        "novakid" : [ "atprk_scrapmerchant" ]
+      },
+      "buyFactorRange" : [ 0.9, 1.2 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 12,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  Scrap Merchant",
+          "subtitle" : "  You might get something curious!"
+        }
+      }
+    },
+    "dialog" : {
+      "merchant" : {
+        "start" : "/dialog/merchant.config:merchantStart",
+        "end" : "/dialog/merchant.config:merchantEnd",
+        "follow" : "/dialog/merchant.config:follow",
+        "welcome" : "/dialog/merchant.config:welcome",
+        "tout" : "/dialog/merchant.config:tout"
+      },
+      "flee" : {
+        "helpme" : "/dialog/flee.config:helpme",
+        "safe" : "/dialog/flee.config:safe"
+      },
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/dialog/merchant.config:tagCriteria",
+          "enclosedArea" : "/dialog/merchant.config:enclosedArea",
+          "otherDeed" : "/dialog/merchant.config:otherDeed",
+          "severe" : "/dialog/merchant.config:severe",
+          "final" : "/dialog/merchant.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/merchant.config:beacon",
+          "rent" : "/dialog/merchant.config:rent"
+        }
+      },
+      "accuse" : "/dialog/thief.config:accuse",
+      "alert" : "/dialog/thief.config:alert"
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ 
+			  { "name" : "industrialcrewhead", "parameters" : { "directives" : "?replace;ffca8a=c99a74;e0975c=867364;a85636=56473c;6f2919=2d2520;" } },
+			  ""
+			],
+            "chest" : [
+              { "name" : "atprk_astraeus1uniformchest", "parameters" : { "colorIndex" : [0,4,11] } }
+            ],
+            "legs" : [
+              { "name" : "atprk_astraeus1uniformpants", "parameters" : { "colorIndex" : [0,4,11] } }
+            ],
+            "back" : [
+              { "name" : "atprk_astraeus1spaceback", "parameters" : { "colorIndex" : [0] } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}
