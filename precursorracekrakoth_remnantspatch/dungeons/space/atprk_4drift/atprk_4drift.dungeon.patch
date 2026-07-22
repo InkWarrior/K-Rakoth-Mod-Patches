@@ -1,0 +1,72 @@
+[
+  {
+    "op": "add",
+    "path": "/parts/-",
+    "value": {
+      "name": "atprk_4drift_primary_astraeus1",
+      "rules": [
+        [
+          "doNotConnectToPart",
+          [
+            "atprk_4driftlayout_left1",
+            "atprk_4driftlayout_left2",
+            "atprk_4driftlayout_left3"
+          ]
+        ]
+      ],
+      "def": [
+        "tmx",
+        "atprk_4drift_primary_astraeus1.json"
+      ],
+      "maximumThreatLevel": 3.9,
+      "chance": 0.3
+    }
+  },
+  {
+    "op": "add",
+    "path": "/parts/-",
+    "value": {
+      "name": "atprk_4drift_primary_astraeus2",
+      "rules": [
+        [
+          "doNotConnectToPart",
+          [
+            "atprk_4driftlayout_left1",
+            "atprk_4driftlayout_left2",
+            "atprk_4driftlayout_left3"
+          ]
+        ]
+      ],
+      "def": [
+        "tmx",
+        "atprk_4drift_primary_astraeus2.json"
+      ],
+      "minimumThreatLevel": 4,
+      "maximumThreatLevel": 4.9,
+      "chance": 0.3
+    }
+  },
+  {
+    "op": "add",
+    "path": "/parts/-",
+    "value": {
+      "name": "atprk_4drift_primary_astraeus3",
+      "rules": [
+        [
+          "doNotConnectToPart",
+          [
+            "atprk_4driftlayout_left1",
+            "atprk_4driftlayout_left2",
+            "atprk_4driftlayout_left3"
+          ]
+        ]
+      ],
+      "def": [
+        "tmx",
+        "atprk_4drift_primary_astraeus3.json"
+      ],
+      "minimumThreatLevel": 5,
+      "chance": 0.3
+    }
+  }
+]

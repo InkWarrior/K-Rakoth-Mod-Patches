@@ -1,0 +1,15 @@
+{
+  "itemName" : "atprk_mechbodyenvoyupgrade",
+  "price" : 10000,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "atprk_mechbodyenvoyupgrade.png",
+  "description" : "A resilient mech body, able to withstand dimensional anomalies even!",
+  "shortdescription" : "MkII Envoy Mech Body",
+  "itemTags" : [ ],
+
+  "mechPart" : ["body", "atrpk_envoyupgrade"]
+}
