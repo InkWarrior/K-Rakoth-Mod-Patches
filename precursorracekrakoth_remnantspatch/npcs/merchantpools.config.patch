@@ -1,0 +1,145 @@
+[
+  {
+    "op": "add",
+    "path": "/atprk_scrapmerchant",
+    "value": [
+      [
+        0,
+        [
+          {
+            "item": {
+              "name": "atprk_1stastraeusbanner1"
+            },
+            "rarity": 0.1
+          },
+          {
+            "item": {
+              "name": "atprk_1stastraeusbanner2"
+            },
+            "rarity": 0.1
+          },
+          {
+            "item": {
+              "name": "atprk_1stastraeusconsole2"
+            },
+            "rarity": 0.1
+          },
+          {
+            "item": {
+              "name": "atprk_1stastraeuslander"
+            },
+            "rarity": 0.1
+          },
+          {
+            "item": {
+              "name": "atprk_routerscrap"
+            },
+            "rarity": 0.01
+          },
+          {
+            "item": {
+              "name": "atprk_astraeus1uniformchest"
+            },
+            "rarity": 0.01
+          },
+          {
+            "item": {
+              "name": "atprk_astraeus1uniformpants"
+            },
+            "rarity": 0.01
+          },
+          {
+            "item": {
+              "name": "atprk_astraeus1spacehead"
+            },
+            "rarity": 0.005
+          },
+          {
+            "item": {
+              "name": "atprk_astraeus1spacechest"
+            },
+            "rarity": 0.005
+          },
+          {
+            "item": {
+              "name": "atprk_astraeus1spacepants"
+            },
+            "rarity": 0.005
+          },
+          {
+            "item": {
+              "name": "atprk_astraeus1spaceback"
+            },
+            "rarity": 0.005
+          },
+          {
+            "item": {
+              "name": "wreckbed"
+            },
+            "rarity": 0.05
+          },
+          {
+            "item": {
+              "name": "wreckconsole1"
+            },
+            "rarity": 0.05
+          },
+          {
+            "item": {
+              "name": "wreckconsole2"
+            },
+            "rarity": 0.05
+          },
+          {
+            "item": {
+              "name": "wreckconsole3"
+            },
+            "rarity": 0.05
+          },
+          {
+            "item": {
+              "name": "wreckvent"
+            },
+            "rarity": 0.05
+          },
+          {
+            "item": {
+              "name": "wrecktable"
+            },
+            "rarity": 0.05
+          },
+          {
+            "item": {
+              "name": "wreckchair"
+            },
+            "rarity": 0.05
+          },
+          {
+            "item": {
+              "name": "salvagearm"
+            },
+            "rarity": 0.005
+          },
+          {
+            "item": {
+              "name": "salvagebody"
+            },
+            "rarity": 0.005
+          },
+          {
+            "item": {
+              "name": "salvagebooster"
+            },
+            "rarity": 0.005
+          },
+          {
+            "item": {
+              "name": "salvagelegs"
+            },
+            "rarity": 0.005
+          }
+        ]
+      ]
+    ]
+  }
+]

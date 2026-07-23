@@ -1,0 +1,51 @@
+[
+    {
+        "op": "add",
+        "path": "/atrpk_envoyupgrade",
+        "value": {
+            "stats": {
+                "energy": 5,
+                "protection": 6
+            },
+            "partParameters": {
+                "hazardImmunities": [
+                    "biomeradiation",
+                    "biomecold",
+                    "biomeheat",
+					"atprk_4ddistortion"
+                ]
+            },
+            "partImages": {
+                "bodyBack": "body/atrpk_envoyupgrade_back.png",
+                "bodyFront": "body/atrpk_envoyupgrade_front.png",
+                "bodyFullbright": "body/atrpk_envoyupgrade_fullbright.png"
+            },
+            "defaultPrimaryColors": [
+                "f4c56f",
+                "dc8c13",
+                "9e570d",
+                "733807"
+            ],
+            "defaultSecondaryColors": [
+                "7c9484",
+                "5e7366",
+                "3f4d43",
+                "202a23"
+            ],
+            "animationCustom": {
+                "animatedParts": {
+                    "parts": {
+                        "bodyFront": {
+                            "properties": {
+                                "sitPosition": [
+                                    0.65,
+                                    0.28
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+]

@@ -81,10 +81,11 @@
         {"weight" : 0.35, "item" : "atprk_astraeuslasergun"},
         {"weight" : 0.05, "item" : "atprk_routerscrap"},
         {"weight" : 0.01, "item" : "atprk_astraeus1uniformchest"},
-        {"weight" : 0.01, "item" : "atprk_astraeus1uniformpants"}
+        {"weight" : 0.01, "item" : "atprk_astraeus1uniformpants"},
         {"weight" : 0.001, "item" : "atprk_astraeus1spacehead"},
         {"weight" : 0.001, "item" : "atprk_astraeus1spacechest"},
         {"weight" : 0.001, "item" : "atprk_astraeus1spacepants"},
+        {"weight" : 0.001, "item" : "atprk_astraeus1spaceback"}
       ],
       "allowDuplication" : false
     }]

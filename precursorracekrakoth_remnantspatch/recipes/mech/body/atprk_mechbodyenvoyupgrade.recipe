@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "iwrmp_mechbodyenvoy", "count" : 1 },
+    { "item" : "refinedviolium", "count" : 20 },
+    { "item" : "atprk_chthonicscraps", "count" : 16 },
+    { "item" : "atprk_4dcube", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "atprk_mechbodyenvoyupgrade", "count" : 1 },
+  "groups" : [ "iwrmp_prtccraftingtable", "iwrmp_envoysailunit", "prtccraftingtable_misc", "craftingmech", "mechbody" ]
+}
