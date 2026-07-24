@@ -6,7 +6,7 @@
   "rarity" : "Legendary",
   "category" : "headwear",
   "description" : "An old and bulky space helmet.",
-  "shortdescription" : "Astraeus Zero-Grav Helmet",
+  "shortdescription" : "Astraeus Space Helmet",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",

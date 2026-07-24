@@ -1,0 +1,38 @@
+[
+    {
+        "op": "add",
+        "path": "/atprk_flare",
+        "value": {
+            "mass": 1,
+            "gravityMultiplier": 0.5,
+            "bounceFactor": 0,
+            "maxMovementPerStep": 0.4,
+            "collisionPoly": [
+                [
+                    0.3,
+                    -0.1
+                ],
+                [
+                    0.5,
+                    -0.1
+                ],
+                [
+                    0.3,
+                    0.1
+                ],
+                [
+                    0.5,
+                    0.1
+                ]
+            ],
+            "ignorePlatformCollision": true,
+            "stickyCollision": true,
+            "stickyForce": 20,
+            "groundFriction": 15,
+            "airFriction": 0.3,
+            "liquidFriction": 0.8,
+            "maximumCorrection": 0.75
+        }
+    }
+]
+

@@ -5,9 +5,9 @@
   "inventoryIcon" : "atprk_astraeuslasergun.png",
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "An old Modular Laser Carbine; one of the last of its kind.",
+  "description" : "An old Modular Laser Carbine; one of its kind.",
   "shortdescription" : "ML-1 Venture Carbine",
-  "tooltipKind" : "base",
+  "tooltipKind" : "gun",
   "category" : "uniqueWeapon",
   "itemTags" : ["weapon","ranged","upgradeableWeapon"],
   "twoHanded" : true,
@@ -168,6 +168,8 @@
           "allowFlip" : true
         }
       }
-    }
+    },
+
+    "altAbilityType" : "atprk_flarelauncher"
   }
 }

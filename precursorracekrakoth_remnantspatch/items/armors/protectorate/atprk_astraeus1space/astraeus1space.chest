@@ -6,7 +6,7 @@
   "rarity" : "Legendary",
   "category" : "chestwear",
   "description" : "This space suit model dates from centuries ago.",
-  "shortdescription" : "Astraeus Zero-Grav Chestplate",
+  "shortdescription" : "Astraeus Space Chestplate",
   "tooltipKind" : "armor",
   "maleFrames" : {
     "body" : "chest.png",
